@@ -9,6 +9,9 @@ export default function Home(){
     const htoc=()=>{
         navigate("/contactus")
     }
+    const htoh=()=>{
+        navigate("/")
+    }
     return(
         <div>
             <h1>Welcome to Home Page</h1>
@@ -16,6 +19,7 @@ export default function Home(){
             <button type="button" onClick={htoc}>ContactUs</button> */}
             <Button variant="outlined" onClick={htoa}>AboutUs</Button>
             <Button variant="outlined" onClick={htoc}>ContactUs</Button>
+            <Button variant="outlined" onClick={htoh}>Stay here</Button>
         </div>
     )
 }
